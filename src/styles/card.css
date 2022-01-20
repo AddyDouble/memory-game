@@ -1,29 +1,30 @@
+.card, .card-img, .card-title{
+    margin: 0;
+    padding: 0;
+}
+
 .card{
     width: 250px;
     height: 275px;
-    margin: 0;
-    padding: 0;
     padding-top: 15px;
     display: flex;
     flex-direction: column;
-
-    border: 2px solid black;
-    border-radius: 0.5em;
     background-color: rgb(64, 81, 62);
     color: rgb(234 234 234);
+    border: 2px solid black;
+    border-radius: 0.5em;
 }
 
-img {
+.card-img {
     width: 200px;
     height: 200px;
-    border-radius: 0.5em;
-    border: 1px solid black;
-    margin: 0;
     margin: auto;
+    border: 1px solid black;
+    border-radius: 0.5em;
 }
 
 .card-title{
-    border-top: 1px solid black;
-    text-align: center;
     margin: 10px 0;
+    text-align: center;
+    border-top: 1px solid black;
 }

@@ -1,0 +1,9 @@
+.score-keeper, .score-keeper h1{
+    margin: 0;
+    padding: 0;
+}
+
+.score-keeper{
+    color: rgb(234 234 234);
+    font-size: 12px;
+}

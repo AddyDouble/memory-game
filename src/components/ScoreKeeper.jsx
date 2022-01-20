@@ -1,4 +1,4 @@
-import "./scoreKeeper.css"
+import "../styles/scoreKeeper.css"
 
 function ScoreKeeper({name ,score}){
     return(

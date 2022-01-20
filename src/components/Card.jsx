@@ -1,4 +1,4 @@
-import "./card.css"
+import "../styles/card.css"
 
 function Card(props){
     const {title,image, checkLogic} = props

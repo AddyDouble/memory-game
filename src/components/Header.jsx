@@ -1,5 +1,5 @@
-import "./header.css"
-import ScoreKeeper from "../ScoreKeeper/ScoreKeeper";
+import "../styles/header.css"
+import ScoreKeeper from "./ScoreKeeper";
 
 function Header(props){
     const {score, highScore} = props;
